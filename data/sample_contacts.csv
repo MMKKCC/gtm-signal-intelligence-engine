@@ -1,0 +1,13 @@
+email,first_name,last_name,title,persona_category,domain,linkedin_url
+jane.doe@acme.com,Jane,Doe,VP RevOps,revops,acme.com,https://linkedin.com/in/janedoe
+john.smith@acme.com,John,Smith,VP Marketing,marketing_leader,acme.com,https://linkedin.com/in/johnsmith
+cto.acme@acme.com,Alex,Chen,CTO,it_admin,acme.com,
+alice.jones@initech.com,Alice,Jones,Director IT,it_admin,initech.com,https://linkedin.com/in/alicejones
+bob.chen@initech.com,Bob,Chen,VP Sales,sales_leader,initech.com,
+sarah.kim@globex.com,Sarah,Kim,VP Supply Chain,vp_supply_chain,globex.com,https://linkedin.com/in/sarahkim
+mike.ross@umbrella.com,Mike,Ross,Director Operations,operations_leader,umbrella.com,
+kate.blake@umbrella.com,Kate,Blake,VP Customer Success,vp_customer_success,umbrella.com,https://linkedin.com/in/kateblake
+tom.hardy@piedpiper.com,Tom,Hardy,CEO,revops,piedpiper.com,https://linkedin.com/in/tomhardy
+nina.patel@piedpiper.com,Nina,Patel,Head of Marketing,marketing_leader,piedpiper.com,
+cfo@weyland.com,James,Weyland,CFO,finance_leader,weyland.com,
+revops@soylent.com,Priya,Sharma,RevOps Manager,revops,soylent.com,https://linkedin.com/in/priyasharma

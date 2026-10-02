@@ -1,0 +1,20 @@
+# AI tooling cache
+.claude/
+
+# Python test caches
+.pytest_cache/
+__pycache__/
+*.pyc[cod]
+
+# Dependencies
+node_modules/
+
+# Build and distribution artifacts
+dist/
+build/
+*.egg-info/
+
+# Environment configurations 
+.env
+.venv/
+env/

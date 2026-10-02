@@ -1,0 +1,14 @@
+domain,signal_type,raw_context,source_url,detected_at
+acme.com,exec_hire,"Acme Corp hired Lisa Park as new CMO to lead marketing transformation",https://linkedin.com/posts/acme-cmo-hire,2026-01-15
+acme.com,funding,"Acme Corp raised $50M Series B led by Sequoia Capital",https://techcrunch.com/acme-series-b,2026-02-01
+initech.com,negative_competitor_review,"Competitor OneTech received 1-star G2 review for poor onboarding experience and missing integrations",https://g2.com/reviews/onetech/1234,2026-01-20
+initech.com,tech_install,"Salesforce CRM detected in tech stack via BuiltWith",https://builtwith.com/initech.com,2026-01-10
+globex.com,new_location,"Globex Corp opened new 200,000 sq ft distribution center in Dallas TX",https://businesswire.com/globex-dallas,2026-01-25
+umbrella.com,exec_hire,"Umbrella Inc hired David Chen as VP Engineering to rebuild their data platform",https://linkedin.com/posts/umbrella-vpe,2026-02-05
+piedpiper.com,funding,"Pied Piper raised $8M Seed round to expand their compression API",https://techcrunch.com/piedpiper-seed,2026-01-30
+soylent.com,webcast_attended,"Soylent Corp registered for RevOps Alliance webinar on pipeline forecasting",https://revopsalliance.com/webinar/pipeline,2026-02-10
+acme.com,funding,"Acme Corp raises another round — duplicate test",https://duplicate.com/acme,2026-02-01
+hooli.com,exec_hire,"Hooli hired new CTO — should be suppressed (customer)",https://linkedin.com/posts/hooli-cto,2026-01-05
+dundermifflin.com,exec_hire,"Dunder Mifflin VP hire — should be suppressed (dnc)",https://linkedin.com/posts/dm-hire,2026-01-08
+weyland.com,tech_install,"HubSpot Marketing Hub detected on Weyland Corp website",https://builtwith.com/weyland.com,2026-02-08
+soylent.com,negative_competitor_review,"Competitor NutriTech flagged for misleading health claims on G2 and Trustpilot",https://g2.com/reviews/nutritech,2026-02-12

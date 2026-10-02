@@ -1,0 +1,95 @@
+# GTM Signal Intelligence Engine — Operator-Tunable Configuration
+# Edit this file to change scoring, decay, and routing behavior without code changes.
+
+scoring:
+  # Base urgency score (0-100) per signal type before ICP multiplier is applied.
+  # "Loud" signals (funding, job postings) are scored lower than "dark" signals
+  # (competitor reviews, contract endings) because they're widely visible and competitive.
+  base_scores:
+    negative_competitor_review: 95
+    exec_hire: 85
+    negative_review: 80
+    new_location: 65
+    tech_install: 70
+    funding: 60
+    job_posting: 40
+    webcast_attended: 30
+  default_base_score: 50
+
+  # Multiplier applied based on account ICP tier.
+  icp_multipliers:
+    1: 1.2
+    2: 1.0
+    3: 0.8
+    4: 0.6
+
+decay:
+  # How many days a signal remains actionable before it expires.
+  shelf_life_days:
+    funding: 90
+    exec_hire: 60
+    new_location: 60
+    tech_install: 45
+    negative_competitor_review: 30
+    negative_review: 30
+    job_posting: 30
+    webcast_attended: 14
+  default_shelf_life_days: 45
+
+persona_routing:
+  # Ordered list of preferred persona_category values per signal type.
+  # The system queries contacts in order and returns the first match.
+  matrix:
+    funding:
+      - revops
+      - marketing_leader
+      - sales_leader
+    exec_hire:
+      - revops
+      - sales_leader
+      - marketing_leader
+      - it_admin
+    tech_install:
+      - it_admin
+      - revops
+    negative_competitor_review:
+      - marketing_leader
+      - sales_leader
+      - revops
+    negative_review:
+      - vp_customer_success
+      - operations_leader
+      - revops
+    job_posting:
+      - revops
+      - it_admin
+    webcast_attended:
+      - marketing_leader
+      - revops
+    new_location:
+      - vp_supply_chain
+      - operations_leader
+      - revops
+    default:
+      - revops
+
+  # For exec_hire signals, scan raw_context for these keywords to pick a more
+  # specific persona before falling back to the matrix above.
+  exec_hire_keyword_map:
+    "customer success": vp_customer_success
+    "supply chain": vp_supply_chain
+    marketing: marketing_leader
+    cmo: marketing_leader
+    sales: sales_leader
+    cro: sales_leader
+    revenue: sales_leader
+    engineering: it_admin
+    cto: it_admin
+    technology: it_admin
+    product: it_admin
+    finance: finance_leader
+    cfo: finance_leader
+    operations: operations_leader
+
+llm:
+  cache_ttl_days: 14

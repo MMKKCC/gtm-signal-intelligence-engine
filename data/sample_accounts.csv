@@ -1,0 +1,11 @@
+company_name,domain,icp_tier,status,industry,employee_count
+Acme Corp,https://www.acme.com/,1,prospect,SaaS,500
+Initech LLC,initech.com,2,prospect,Manufacturing,250
+Globex Corporation,GLOBEX.COM,1,open_opp,Logistics,1200
+Umbrella Inc,https://umbrella.com,3,prospect,Healthcare,800
+Hooli Technologies,hooli.com,2,customer,Technology,5000
+Pied Piper,piedpiper.com,1,prospect,SaaS,45
+Dunder Mifflin,dundermifflin.com,3,dnc,Paper,300
+Weyland Corp,weyland.com,2,prospect,Manufacturing,2500
+Initech LLC,www.initech.com,2,prospect,Manufacturing,260
+Soylent Corp,soylent.com,1,prospect,FoodTech,180

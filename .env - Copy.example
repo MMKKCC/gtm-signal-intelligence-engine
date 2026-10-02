@@ -1,0 +1,3 @@
+DATABASE_URL=sqlite:///./gtm_engine.db
+ANTHROPIC_API_KEY=sk-ant-...
+LLM_CACHE_TTL_DAYS=14

@@ -1,0 +1,16 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+pydantic
+python-multipart
+tldextract
+pandas
+pyyaml
+pytest
+pytest-asyncio
+httpx
+
+anthropic
+
+streamlit
+python-dotenv
